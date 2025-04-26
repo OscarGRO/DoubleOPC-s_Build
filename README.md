@@ -1,4 +1,4 @@
- # DoubleOPC-s_Build  Ver 1.00
+ # DoubleOPC-s_Build  Ver 1.0.0
 
 Program created with the C++ programming language
 
