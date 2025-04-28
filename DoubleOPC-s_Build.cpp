@@ -11,6 +11,7 @@ using namespace std;
 
 //Oscar G. Rodriguez
 const int numOpc = 4;
+
 // Arrays de componentes y sus precios
 string gabinetes[numOpc] = {
     "SAMA SV02 - Mid Tower ATX",
@@ -19,6 +20,7 @@ string gabinetes[numOpc] = {
     "Corsair FRAME 400D RS White Steel / Tempered Glass - Mid Tower ATX"
 };
 float gabinetePrecio[numOpc] = { 159.99, 129.90, 57.99, 99.99 };
+
 //************************************************************************************************
 string placaMadre[numOpc] = {
     "ASUS TUF GAMING Z690-PLUS WIFI D4 LGA 1700 DDR4 128GB ATX Motherboard",
@@ -27,6 +29,7 @@ string placaMadre[numOpc] = {
     "MSI PRO Z690-A DDR4 Intel LGA 1700 Z690 ATX M.2 Desktop Motherboard ATX"
 };
 float placaPrecio[numOpc] = { 298.00, 260.40, 217.17, 99.99 };
+
 //************************************************************************************************
 string cpu[numOpc] = {
     "Intel Core i5-12400F - Core i5 12th Gen Alder Lake 6-Core 2.5 GHz LGA 1700 65W Desktop Processor)",
@@ -35,6 +38,7 @@ string cpu[numOpc] = {
     "Intel Core i9-12900K - Core i9 12th Gen Alder Lake 16-Core (8P+8E) 3.2 GHz LGA 1700 125W Intel UHD Graphics 770 Desktop Processor"
 };
 float cpuPrecio[numOpc] = { 184.00, 449.99, 160.99, 649.99 };
+
 //************************************************************************************************
 string ram[numOpc] = {
     "Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz C16 Memory Kit - Black - 16 GB (2 x 8 GB) ",
@@ -43,6 +47,7 @@ string ram[numOpc] = {
     "TEAMGROUP T-Force Xtreem ARGB 3600MHz CL18 32GB (2x16GB) PC4-28800 Dual Channel DDR4 DRAM"
 };
 float ramPrecio[numOpc] = { 29.99, 56.99, 92.99, 225.09 };
+
 //************************************************************************************************
 string gpu[numOpc] = {
     "ASUS GeForce RTX 4060 LP BRK OC Edition 8GB GDDR6 ",
@@ -51,6 +56,7 @@ string gpu[numOpc] = {
     "ASRock Radeon RX 6600 Challenger D 8GB GDDR6 "
 };
 float gpuPrecio[numOpc] = { 422.67, 749.00, 778.70, 279.99 };
+
 //************************************************************************************************
 string storage[numOpc] = {
     "SAMSUNG 990 PRO 2TB SSD, PCIe Gen4 M.2 2280, Seq. Read Speeds Up-to 7,450MB/s ",
@@ -59,6 +65,7 @@ string storage[numOpc] = {
     "Corsair MP700 Elite M.2 2280 2TB PCI-Express 5.0 x4 3D TLC Internal Solid State Drive (SSD) Up to 10000 MB/s"
 };
 float storagePrecio[numOpc] = { 199.99, 159.99, 73.99, 189.99 };
+
 //************************************************************************************************
 string cooling[numOpc] = {
     "Phanteks D30-140 DRGB PWM FAN 3Pack, Reverse Airflow Model, Premium D-RGB Performance Fans",
@@ -67,6 +74,7 @@ string cooling[numOpc] = {
     "Cooler Master MasterLiquid 360 Atmos ARGB Close-Loop AIO Liquid Cooler"
 };
 float coolingPrecio[numOpc] = { 118.00, 43.99, 219.99, 149.99 };
+
 //************************************************************************************************
 string fuente[numOpc] = {
     "RAIDMAX XT Series RX-400XT 400 W ATX12V / EPS12V 80 PLUS BRONZE Certified Non-Modular Power Supply",
@@ -75,6 +83,7 @@ string fuente[numOpc] = {
     "Thermaltake GF1 (2024) Fully Modular ATX 750W Power Supply - 80 PLUS Gold"
 };
 float fuentePrecio[numOpc] = { 39.99, 149.99, 162.71, 99.99 };
+
 //************************************************************************************************
 // Funcion para mostrar informacion de los componentes
 void mostrarInfComponentes() {
