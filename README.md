@@ -1,15 +1,18 @@
+
  # DoubleOPC-s_Build  Ver 1.0.0
 
-Program created with the C++ programming language
+- Program created with the C++ programming language
 
-A short program designed to help people understand what they need to build a PC.
+- A short program designed to help people understand what they need to build a PC.
 
 ## How to use
-The program will ask the user to choose a number between 1 and 4.
+- IMPORTANT: You need to create a repository to correctly run the code
+
+- The program will ask the user to choose a number between 1 and 4.
  
 1. Get to know us.
 
-2.  Information about the components you should have in your PC..
+2.  Information about the components you should have in your PC.
 
 3. Build your own PC.
 
